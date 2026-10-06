@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <title>Контакти</title>
+</head>
+<body>
+
+    <h1>Свържете се с нас</h1>
+
+    <form action="#" method="post">
+
+        <fieldset>
+            <legend>Контактна форма</legend>
+
+            <label for="name">Име:</label>
+            <input type="text" id="name" name="name" required>
+            <br><br>
+
+            <label for="email">Имейл:</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+
+            <label for="subject">Тема:</label>
+            <input type="text" id="subject" name="subject" required>
+            <br><br>
+
+            <label for="type">Тип на запитването:</label>
+            <select id="type" name="type">
+                <option value="question">Въпрос</option>
+                <option value="suggestion">Предложение</option>
+                <option value="problem">Проблем</option>
+                <option value="other">Друго</option>
+            </select>
+            <br><br>
+
+            <label for="message">Съобщение:</label><br>
+            <textarea id="message" name="message" rows="6" cols="40" required></textarea>
+            <br><br>
+
+            <button type="submit">Изпрати</button>
+
+        </fieldset>
+
+    </form>
+
+</body>
+</html>
